@@ -1,0 +1,41 @@
+proyecto/
+│
+├── backend/
+│   ├── config.xml              # Archivo de configuración XML
+│   ├── server.js               # Archivo principal del servidor (por ejemplo, en Node.js)
+│   ├── database.js             # Archivo para la configuración y gestión de la base de datos
+│   ├── routes/                 # Carpeta para los archivos de enrutamiento
+│   │   ├── apiRoutes.js        # Archivo de definición de rutas de la API
+│   │   └── webRoutes.js        # Archivo de definición de rutas web
+│   ├── controllers/            # Carpeta para los controladores
+│   │   ├── userController.js   # Controlador para las operaciones relacionadas con usuarios
+│   │   └── ...
+│   ├── models/                 # Carpeta para los modelos de datos
+│   │   ├── userModel.js        # Modelo para la gestión de usuarios
+│   │   └── ...
+│   ├── middleware/             # Carpeta para middleware
+│   │   ├── authMiddleware.js   # Middleware para la autenticación
+│   │   └── ...
+│   └── utils/                  # Carpeta para utilidades y funciones de ayuda
+│       ├── validation.js       # Funciones de validación de datos
+│       └── ...
+│
+└── frontend/
+    ├── index.html              # Archivo principal HTML
+    ├── style.css               # Archivo de hojas de estilo CSS
+    ├── script.js               # Archivo principal de JavaScript
+    ├── assets/                 # Carpeta para archivos estáticos (imágenes, fuentes, etc.)
+    │   ├── logo.png
+    │   └── ...
+    ├── components/             # Carpeta para componentes reutilizables
+    │   ├── navbar.html         # Componente de barra de navegación
+    │   └── ...
+    ├── pages/                  # Carpeta para las páginas principales del sitio
+    │   ├── home.html           # Página de inicio
+    │   └── ...
+    ├── services/               # Carpeta para servicios de backend
+    │   ├── apiService.js       # Servicio para interactuar con la API backend
+    │   └── ...
+    └── libraries/              # Carpeta para bibliotecas de terceros
+        ├── jquery.js
+        └── ...
